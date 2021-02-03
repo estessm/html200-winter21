@@ -1,7 +1,6 @@
-let arr= ['one', 'two', 'three'];
+let arr = ['one', 'two', 'three'];
+let arr2 = ['1', '2', '3']
 
 for (let i = 0; i < arr.length; i++){
-  for (let a = 1; a <= arr.length; a++){
-    console.log([a] + ', ' + arr[i])
-  }
+    console.log(arr2[i] + ',' + arr[i]);
 }
